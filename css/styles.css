@@ -669,7 +669,9 @@ img {
 .modal-checkbox {
   min-height: 16px;
   width: 100%;
-  margin: 24px 0px;
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .checkbox {
@@ -694,10 +696,10 @@ img {
   display: inline-flex;
   font-size: 12px;
 }
-.conditions {
-  display: inline-flex;
+p {
   font-size: 12px;
   text-decoration-skip-ink: none;
+  display: inline-flex;
 }
 .solid {
   size: 14px;
