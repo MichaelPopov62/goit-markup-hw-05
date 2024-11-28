@@ -694,16 +694,18 @@ img {
   display: inline-flex;
   font-size: 12px;
 }
+.conditions {
+  display: inline-flex;
+  font-size: 12px;
+  text-decoration-skip-ink: none;
+}
 .solid {
   size: 14px;
   text-decoration-line: underline;
   text-decoration-style: solid;
   color: #4d5ae5;
 }
-.conditions {
-  font-size: 12px;
-  text-decoration-skip-ink: none;
-}
+
 .button {
   margin-right: auto;
   display: block;
