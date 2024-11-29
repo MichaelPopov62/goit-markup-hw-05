@@ -541,20 +541,22 @@
         </div>
         <div class="subscribe">
           <p class="name">Subscribe</p>
-          <label class="form-label" for="input-e-mail"></label>
-          <div class="input-wraper">
+          <form class="connection">
+            <label class="form-label" for="input-e-mail"></label>
+
             <input
               class="form-input"
               name="input-e-mail"
               value="E-mail"
               id="input-e-mail"
-              type="submit"
+              type="e-mail"
+              placeholder="E-mail"
             />
             <button class="form-button" type="submit">Subscribe</button>
             <svg class="form-icon" width="24" height="24">
               <use href="./images/icons.svg#icon-sven"></use>
             </svg>
-          </div>
+          </form>
         </div>
       </div>
     </footer>
@@ -585,7 +587,7 @@
             </div>
           </div>
           <div class="form-field">
-            <label class="user-name" for="user-phone">phone</label>
+            <label class="user-name" for="user-phone">Phone</label>
             <div class="form-wrapper">
               <input
                 class="persona-input"
@@ -617,7 +619,7 @@
             <div class="massange-wrapper">
               <textarea
                 class="modal-form-massange"
-                name=" user-massenge"
+                name=" user-comment"
                 id="user-comment"
                 placeholder="Text input"
               ></textarea>
@@ -625,20 +627,19 @@
           </div>
           <div class="modal-checkbox">
             <input
-              class="lebel"
+              class="visually-hidden"
               type="checkbox"
               id="user-privacy"
               value="true"
               name="user-privacy"
             />
             <label class="communication" for="user-privacy">
-              <p>
-                <span class="solid"
-                  ><svg class="communication-icon" width="10" height="8">
-                    <use href="./images/icons.svg#icon-check"></use></svg></span
-                >I accept the terms and conditions of the <a>Privaty policy</a>
-              </p></label
-            >
+              <span class="solid"
+                ><svg class="communication-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use></svg></span
+              >I accept the terms and conditions of the
+              <a class="policy">Privaty policy</a>
+            </label>
           </div>
           <button class="button" type="button">Send</button>
         </form>
