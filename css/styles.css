@@ -480,8 +480,9 @@ img {
   margin-right: auto;
 }
 .connection {
-  display: flex;
-  row-gap: 24px;
+  display: inline-flex;
+
+  gap: 24px;
 }
 .input-wraper {
   display: flex;
@@ -490,7 +491,7 @@ img {
   display: inline-flex;
   width: 264px;
   height: 40px;
-  margin-right: 24px;
+
   padding-left: 16px;
   font-weight: 400;
   font-size: 12px;
@@ -506,13 +507,13 @@ img {
   color: #ffffff;
 }
 .form-button {
-  font-family: 'Robbot' sans-serif;
+  padding-right: 24px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   display: flex;
-  padding: 8px 64px 8px 24px;
+  padding: 8px 24px 8px 24px;
   align-items: center;
   justify-content: center;
   flex-direction: row;
@@ -524,19 +525,17 @@ img {
   border-radius: 4px;
   border: none;
   cursor: pointer;
+  margin-right: auto;
 }
 
 .form-icon {
-  display: inline-flex;
-  fill: #fff;
-  left: -50px;
-  top: 8px;
-  bottom: 8px;
-  margin-right: 24px;
-  margin-left: 16px;
-  position: relative;
+  line-height: 10px;
   width: 24px;
   height: 24px;
+  fill: #fff;
+  left: -50px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 /*backdrop*/
