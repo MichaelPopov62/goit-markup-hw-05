@@ -477,11 +477,11 @@ img {
   width: 453px;
   height: 80px;
   margin-left: auto;
-  margin-right: 159px;
+  margin-right: auto;
 }
 .connection {
   display: flex;
-  gap: 24px;
+  row-gap: 24px;
 }
 .input-wraper {
   display: flex;
