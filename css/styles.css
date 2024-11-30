@@ -480,9 +480,11 @@ img {
   margin-right: auto;
 }
 .connection {
-  display: inline-flex;
-
+  display: flex;
   gap: 24px;
+}
+.name {
+  padding-left: 24px;
 }
 .input-wraper {
   display: flex;
@@ -491,7 +493,6 @@ img {
   display: inline-flex;
   width: 264px;
   height: 40px;
-
   padding-left: 16px;
   font-weight: 400;
   font-size: 12px;
@@ -507,12 +508,12 @@ img {
   color: #ffffff;
 }
 .form-button {
+  display: flex;
   padding-right: 24px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  display: flex;
   padding: 8px 24px 8px 24px;
   align-items: center;
   justify-content: center;
@@ -526,12 +527,13 @@ img {
   border: none;
   cursor: pointer;
   margin-right: auto;
+  font-family: 'Roboto', sans-serif;
 }
 
 .form-icon {
   line-height: 10px;
-  width: 24px;
-  height: 24px;
+  width: 24;
+  height: 24;
   fill: #fff;
   left: -50px;
   margin-top: 8px;
