@@ -483,9 +483,7 @@ img {
   display: flex;
   gap: 24px;
 }
-.name {
-  padding-left: 24px;
-}
+
 .input-wraper {
   display: flex;
 }
