@@ -489,8 +489,7 @@ img {
 .input-wraper {
   display: flex;
 }
-.form-input {
-  display: inline-flex;
+.form-email {
   width: 264px;
   height: 40px;
   padding-left: 16px;
