@@ -500,7 +500,7 @@ img {
   letter-spacing: 0.04em;
   border-radius: 4px;
   border: 1px solid #ffffff;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   background-color: transparent;
   color: #ffffff;
 }
@@ -509,6 +509,8 @@ img {
 }
 .form-button {
   display: flex;
+  min-width: 165px;
+  height: 40px;
   padding-right: 24px;
   font-size: 16px;
   font-weight: 500;
@@ -635,11 +637,14 @@ img {
 }
 .form-input {
   width: 264px;
+  height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
   line-height: 2;
+  font-size: 12px;
   letter-spacing: 0.04em;
   padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
 }
@@ -733,9 +738,9 @@ img {
   letter-spacing: 0.04em;
 }
 .checkbox:checked + .communication > .solid {
-  background-color: #4d5ae5;
+  background-color: #404bbf;
   border: none;
-  fill: #ffffff;
+  fill: #f4f4fd;
 }
 .solid {
   display: inline-flex;
